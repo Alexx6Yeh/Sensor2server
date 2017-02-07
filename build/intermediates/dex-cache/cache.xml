@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\wei\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_f1c2ccaf81944d9da8e999122ebe57d1739bb234\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\src\main\java\libs\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.9_434f118ea5f3222b9b3936c982ed2697590aedd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_3b4cb731c7fbae9fbc36ff43aaaa82ce3747553a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wei\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_cf01aba4ef1f492d76d6b3cc242c51d1cd36e0b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_45ca830f932452f9220ffcc3ee4aad2895f433ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78d98868afc7067bd969db78f19b11572864cd90">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d54134fd05703062692f884a5b984a7c4edbfce4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="90bd3a90875a17f2b9484a99989daaa4dffdf401">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ecc35c9ce1b1ab91d4a78efedd7eaba4063c5c09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Projects\Sensor2server\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\Android Projects\Sensor2server\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_5a3f3038e9712fb29763a397b523984ef0a2183e\classes.dex" />
+    </item>
+
+</items>
