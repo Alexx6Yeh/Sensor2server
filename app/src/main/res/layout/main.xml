@@ -57,12 +57,6 @@
                 android:visibility="visible"
                 android:textColor="#000000"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="動作切換"
-                android:id="@+id/add" />
-
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -83,13 +77,6 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="小跑步"
-                    android:id="@+id/btn_trot"
-                    android:layout_marginTop="10dp" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="上樓梯"
                     android:id="@+id/btn_OnStairs"
                     android:layout_marginTop="10dp" />
@@ -100,24 +87,13 @@
                     android:text="下樓梯"
                     android:id="@+id/btn_DownStairs"
                     android:layout_marginTop="10dp" />
+
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="定點站立"
-                    android:id="@+id/btn_stand"
-                    android:layout_marginTop="10dp" />
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="定點搖晃"
-                    android:id="@+id/btn_shake"
-                    android:layout_marginTop="10dp" />
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="與人交談"
-                    android:id="@+id/btn_talk"
-                    android:layout_marginTop="10dp" />
+                    android:text="+1"
+                    android:id="@+id/add" />
+
             </TableLayout>
 
         </LinearLayout>
