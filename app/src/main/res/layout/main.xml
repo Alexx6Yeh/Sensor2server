@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <FrameLayout
+        android:id="@+id/id_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1"
+                android:id="@+id/textView2"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2"
+                android:id="@+id/textView3"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3"
+                android:id="@+id/textView4"
+                android:visibility="visible"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4"
+                android:id="@+id/textView5"
+                android:visibility="visible"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="動作切換"
+                android:id="@+id/add" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="坐"
+                    android:id="@+id/btn_sit" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="走路"
+                    android:id="@+id/btn_walk"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小跑步"
+                    android:id="@+id/btn_trot"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上樓梯"
+                    android:id="@+id/btn_OnStairs"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下樓梯"
+                    android:id="@+id/btn_DownStairs"
+                    android:layout_marginTop="10dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定點站立"
+                    android:id="@+id/btn_stand"
+                    android:layout_marginTop="10dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定點搖晃"
+                    android:id="@+id/btn_shake"
+                    android:layout_marginTop="10dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="與人交談"
+                    android:id="@+id/btn_talk"
+                    android:layout_marginTop="10dp" />
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textSize="30dp"
+            android:background="#ff3787ff"
+            android:layout_weight="0.50"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="stop"
+            android:textSize="30dp"
+            android:background="#ff3d1b"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+</RelativeLayout>
